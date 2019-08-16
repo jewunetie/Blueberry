@@ -1,0 +1,1563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC778447938347144C50306F4FE3DF9 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A4AA0FD1B4AA2F4BACCF9F6BF96DD /* YoshikoTextField.swift */; };
+		13A43D842E23693FBA1437CB98C0F776 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02DCD3F5EB8E200B64A4B172102860F /* IsaoTextField.swift */; };
+		1C5474CAA226B4DFE980BAA66FFB93A4 /* chevronLeft@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D5B2F62221A3B4AEE61AED9ABC5F87F1 /* chevronLeft@2x.png */; };
+		22B14B6CAC8976A602A63C75A63BA84E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		25D70E8159458DCD02FE61C322F090DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2BF3C9B18F485B67455BECCBDA604FEC /* chevronRight@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = E9C4075A0F663C050CF3E4CC1DBEE12A /* chevronRight@3x.png */; };
+		2DE6579832127EC896FFF5560A984773 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300F676FECAFEC6970703B864F04A86F /* WeekdaysView.swift */; };
+		349303BC1D47269DCA9A8DC70F5FE7E3 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A415BB89EB03AC744FFFB45685B1B03 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361F5CE2807CBD530C8C6E63FD245F5A /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32C875EA22F200468B0D1C3906FA22D /* DropDownCell.swift */; };
+		380E1FE390CAD81499EE47995C090C5A /* ContentsRight.json in Sources */ = {isa = PBXBuildFile; fileRef = D199C8A70DF56BE44C06FB7536C061A8 /* ContentsRight.json */; };
+		396F77AC595953321ED294C88C9D829F /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158ABE6B79AB584800149CEB2552252C /* MonthView.swift */; };
+		3E1B079B452D212C968A2D4F23927322 /* CalendarSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F16FA7BE466A664E864CB24732BFE82 /* CalendarSwift.bundle */; };
+		4056982ADE099217309EEB681A82441D /* chevronLeft@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1104C400FB61C691B2690D00CAE6DDFA /* chevronLeft@3x.png */; };
+		4A8FE4C4F6D45B41CE01A00D24C56961 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B98454837D19091D7C1ACF1080077 /* DPDUIView+Extension.swift */; };
+		51E9BD9641E4B10C671FEF70209E5DAF /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174F6699FB0D6CB9726ACA7E9D083C11 /* YokoTextField.swift */; };
+		5E36731A714E3A91F1D0FCDE7B5DD3F8 /* chevronLeft.png in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD36D1771C02CE8D5B7F6CA9CE38A9 /* chevronLeft.png */; };
+		5F515237FF94DAB4C8A15B7E33A3877B /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9D7A15C6805F196AFC4A4872843912 /* DPDConstants.swift */; };
+		6064C623428CE711C252E442741F81AB /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4A453C1B670DAD171E080E9EB144E /* DropDown+Appearance.swift */; };
+		618D9C6E8BFF0C7AAD509E9279488585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6244B963F18A67CB3EB046F255D0547A /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853EBAB106962510FD3E6275749F2A5 /* MinoruTextField.swift */; };
+		63B1C850569DFBE60BEE8D6A3510E786 /* ContentsLeft.json in Sources */ = {isa = PBXBuildFile; fileRef = 64CC03F0A82C95EDAFEDEDCE68BFB0AE /* ContentsLeft.json */; };
+		665EE7D4F7D3873FAD40332ABCEBC341 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B97CEABC4EE06B3F42CD7DFD9F53C /* TextFieldEffects-dummy.m */; };
+		6A1538989C51F4DE83647ED6DDAC8E36 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E43A3486FE979CCBB51B769CD03E724 /* JiroTextField.swift */; };
+		6D63A736EA2765C1A10D3F471AB91898 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB6564D2CAEC423B87E568C8542D6E /* MadokaTextField.swift */; };
+		7704BF06324524141C6252259B475D4C /* ScrollSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA831CFA5AE069BAACB0CF5912DA001 /* ScrollSegmentView.swift */; };
+		7ABEED4DBF9156D5062FC8668EDA17C1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D462ABB156682EBD9324665D7B0F1D /* Extensions.swift */; };
+		7DFE2A4201AAFB8566DAB686EC139214 /* Pods-bluest_of_berriesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A1A67766EF9D83FA76FCBD738FA58C /* Pods-bluest_of_berriesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		842DFBB1471889C2CA329AE05620BBE7 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648632C96254FFC2BA3DBF7E693EE1D9 /* DropDown.swift */; };
+		9518195DB69E904D77247E0A55A0043C /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE473CB64C48C18F5575C003E4B0ACD /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95897DCFD4071A7D61AEAE1DA86BB539 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B8ECE89C23C26198458BA588018D4 /* DropDown-dummy.m */; };
+		A148FB1D2DABAA9E90AE43526225B728 /* chevronLeft.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 0BD57C187A1F4F77DE2550F2E4B2E525 /* chevronLeft.imageset */; };
+		A2415CD5BEF3F0E37CF4B42CA7F508A8 /* Pods-bluest_of_berriesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD576C5179AC2519D5657F4450CCAF02 /* Pods-bluest_of_berriesTests-dummy.m */; };
+		A3B5E4276E8984F9C3F2B1F60D9D5E6B /* Pods-bluest_of_berriesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 466A9772C53C1B033681B41A880A313E /* Pods-bluest_of_berriesUITests-dummy.m */; };
+		A4DC568121FDF097D15C7D99BA2ADEA9 /* Pods-bluest_of_berries-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 424ED7A4E9E0748E5BA9974FBAC8D6AE /* Pods-bluest_of_berries-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8E267852921B77AE138B29CB0A9CF2D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C179F084A2E0E07D8BC281AB517C7F /* CalendarView.swift */; };
+		A8FA7A35F419617DCE9DA3E304751387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AA76D0A52A62884FFABEA0999B85CD7C /* Pods-bluest_of_berriesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8947B67E38536F7A976B4328BFB1CD5 /* Pods-bluest_of_berriesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADDADC229BF4D9925421A9B8B12DB468 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B58161DF4FD846DE0A7A640A0D2FAEB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B7C670EDF6B960D29F052DE260D24FCE /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D3403D957D574D8BF6FC1167B62445 /* HoshiTextField.swift */; };
+		BA7BB2FF04CE1CAFC5238D1807EF0034 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E508675AE05A5C5C8386637319AB1E8 /* DPDKeyboardListener.swift */; };
+		BC6BC580238F859913650F43C79ED5DC /* Pods-bluest_of_berries-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 665FB653C8A2B8BE635CA6CB374929E5 /* Pods-bluest_of_berries-dummy.m */; };
+		CB631FA5BBDD18E0F1E7ACFEAECB6DC4 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26FFD18AF5DAFD5F477C604174993B /* KaedeTextField.swift */; };
+		CD7E0DB1F177E53F6B320DD62EA28C6B /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AD799E7DB60447E5A7FD3E3FBFE74 /* DayCell.swift */; };
+		D408472B5F7B334349810848FE56A6A9 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9132BB6DB7B2A9F5473E26D55EE4B4E /* TextFieldEffects.swift */; };
+		D75C8D7970A9271DEB9E81D19DE97B27 /* CalendarSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF5143D2D07F0AFC5EAB6A9445422BD /* CalendarSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94B9A9AC3430ACC7EBEFD4CE81567F2 /* CalendarSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 521F1ED438746D0809EBA8FCDC79C5DC /* CalendarSwift-dummy.m */; };
+		E02E6FB1029AE943C28B81A15282B20D /* chevronRight.png in Sources */ = {isa = PBXBuildFile; fileRef = 8776F90CDD80CCC44D6672CDCCB57445 /* chevronRight.png */; };
+		E60D7348562433D7D286523A8B2519FE /* chevronRight.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 2B1625191D7E7EAB0118A23075D54340 /* chevronRight.imageset */; };
+		EB3D83C05EC7793D23A1192C11B9F631 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75C9CFE0EEDA3343389D619405E307FF /* DropDownCell.xib */; };
+		FEDDF4FB4F4E63ABF0D3FC89C45A82E3 /* chevronRight@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 73981B76CDF1B82B67EFEE147FE0274F /* chevronRight@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B7C03E564D8C0099E22DB36CA439F5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AA4B31A64F8B998E3635927A824349F;
+			remoteInfo = CalendarSwift;
+		};
+		80A938CCD86A8988DA9E0B590A157A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09BAB8A20917611A8AD17E2E0EE8271;
+			remoteInfo = TextFieldEffects;
+		};
+		E3B8F2319310704A3533568518320F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDA8369821397273158CE66B54F8FCF;
+			remoteInfo = "Pods-bluest_of_berries";
+		};
+		F4DA5EBE54C38F8EE44F3FDEB339D4DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDA8369821397273158CE66B54F8FCF;
+			remoteInfo = "Pods-bluest_of_berries";
+		};
+		F6FFCED0D791978819AF74D8EB3064D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E03965D7732651AD1EFFA81BED8E8FF8;
+			remoteInfo = "CalendarSwift-CalendarSwift";
+		};
+		F96A50C846E8D7DBFBB7E8D753AF9045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059F6B425FC33AD5B9172575D62A0BDF /* Pods-bluest_of_berriesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bluest_of_berriesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		06C179F084A2E0E07D8BC281AB517C7F /* CalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarView.swift; path = CalendarSwift/Classes/Views/CalendarView.swift; sourceTree = "<group>"; };
+		0BD57C187A1F4F77DE2550F2E4B2E525 /* chevronLeft.imageset */ = {isa = PBXFileReference; includeInIndex = 1; name = chevronLeft.imageset; path = CalendarSwift/Assets/chevronLeft.imageset; sourceTree = "<group>"; };
+		0CAD36D1771C02CE8D5B7F6CA9CE38A9 /* chevronLeft.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = chevronLeft.png; path = CalendarSwift/Assets/chevronLeft.imageset/chevronLeft.png; sourceTree = "<group>"; };
+		1104C400FB61C691B2690D00CAE6DDFA /* chevronLeft@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "chevronLeft@3x.png"; path = "CalendarSwift/Assets/chevronLeft.imageset/chevronLeft@3x.png"; sourceTree = "<group>"; };
+		158ABE6B79AB584800149CEB2552252C /* MonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthView.swift; path = CalendarSwift/Classes/Views/MonthView.swift; sourceTree = "<group>"; };
+		174F6699FB0D6CB9726ACA7E9D083C11 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		1C8488D77C073B85B0F96EBD2BDA7ACD /* Pods-bluest_of_berriesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bluest_of_berriesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CC4A453C1B670DAD171E080E9EB144E /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		1EA831CFA5AE069BAACB0CF5912DA001 /* ScrollSegmentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollSegmentView.swift; path = CalendarSwift/Classes/Views/ScrollSegmentView.swift; sourceTree = "<group>"; };
+		1EB8C68A1BBD3AE5A5535C598A8D3279 /* CalendarSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CalendarSwift-Info.plist"; sourceTree = "<group>"; };
+		22AB6564D2CAEC423B87E568C8542D6E /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		23B0289A774BDF8ACE9158E72C9C8575 /* Pods-bluest_of_berries-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bluest_of_berries-acknowledgements.plist"; sourceTree = "<group>"; };
+		261749000B3C60E94F14E0DED3F17106 /* Pods-bluest_of_berries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bluest_of_berries.debug.xcconfig"; sourceTree = "<group>"; };
+		280059341FFD9F27C8350F09FEB7010A /* Pods_bluest_of_berriesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_bluest_of_berriesUITests.framework; path = "Pods-bluest_of_berriesUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A18550EAE0E7477A89C3AA1550B1408 /* Pods-bluest_of_berries-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bluest_of_berries-frameworks.sh"; sourceTree = "<group>"; };
+		2B1625191D7E7EAB0118A23075D54340 /* chevronRight.imageset */ = {isa = PBXFileReference; includeInIndex = 1; name = chevronRight.imageset; path = CalendarSwift/Assets/chevronRight.imageset; sourceTree = "<group>"; };
+		2BC898798ED53D81C1C7C51815227D77 /* Pods-bluest_of_berries.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bluest_of_berries.modulemap"; sourceTree = "<group>"; };
+		2F16FA7BE466A664E864CB24732BFE82 /* CalendarSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CalendarSwift.bundle; path = "CalendarSwift-CalendarSwift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		300F676FECAFEC6970703B864F04A86F /* WeekdaysView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeekdaysView.swift; path = CalendarSwift/Classes/Views/WeekdaysView.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		367B98454837D19091D7C1ACF1080077 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		424ED7A4E9E0748E5BA9974FBAC8D6AE /* Pods-bluest_of_berries-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bluest_of_berries-umbrella.h"; sourceTree = "<group>"; };
+		43BF4288C7729463B6FE1F23EB31D2E8 /* CalendarSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalendarSwift.xcconfig; sourceTree = "<group>"; };
+		466A9772C53C1B033681B41A880A313E /* Pods-bluest_of_berriesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bluest_of_berriesUITests-dummy.m"; sourceTree = "<group>"; };
+		4D6B8ECE89C23C26198458BA588018D4 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		4FB44266C5DDB9422262B34EABE404E9 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		50D3403D957D574D8BF6FC1167B62445 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		51795445E1BE09AF9DB034AAD1CB27DC /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		521F1ED438746D0809EBA8FCDC79C5DC /* CalendarSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CalendarSwift-dummy.m"; sourceTree = "<group>"; };
+		5E508675AE05A5C5C8386637319AB1E8 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		617EE4BCC5F12B0DA4E082C8DE8DC11B /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		648632C96254FFC2BA3DBF7E693EE1D9 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		64CC03F0A82C95EDAFEDEDCE68BFB0AE /* ContentsLeft.json */ = {isa = PBXFileReference; includeInIndex = 1; name = ContentsLeft.json; path = CalendarSwift/Assets/chevronLeft.imageset/ContentsLeft.json; sourceTree = "<group>"; };
+		665FB653C8A2B8BE635CA6CB374929E5 /* Pods-bluest_of_berries-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bluest_of_berries-dummy.m"; sourceTree = "<group>"; };
+		6889F9BF1B3AE1E45729AC302C4861C7 /* Pods-bluest_of_berriesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bluest_of_berriesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A819698C051A71334AAE0644AEBEA46 /* CalendarSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CalendarSwift.modulemap; sourceTree = "<group>"; };
+		6E43A3486FE979CCBB51B769CD03E724 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		73981B76CDF1B82B67EFEE147FE0274F /* chevronRight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "chevronRight@2x.png"; path = "CalendarSwift/Assets/chevronRight.imageset/chevronRight@2x.png"; sourceTree = "<group>"; };
+		75C9CFE0EEDA3343389D619405E307FF /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		75F7C0825719D37FE8DBA6E7A80AF7BD /* CalendarSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CalendarSwift.framework; path = CalendarSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D3299359A0338C50ECE7F4213FD4DC /* CalendarSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarSwift-prefix.pch"; sourceTree = "<group>"; };
+		7C9EE59CFF48173F430D79D07B39588D /* Pods-bluest_of_berries-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bluest_of_berries-Info.plist"; sourceTree = "<group>"; };
+		7E74412453D4BF4638BC5B78CC5DF99C /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		822B97CEABC4EE06B3F42CD7DFD9F53C /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		835B25633DC1C901747013D90FD270B4 /* Pods-bluest_of_berriesTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bluest_of_berriesTests-Info.plist"; sourceTree = "<group>"; };
+		86D9CE19DA0A4297B72D72430F1E564F /* Pods-bluest_of_berriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bluest_of_berriesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8776F90CDD80CCC44D6672CDCCB57445 /* chevronRight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = chevronRight.png; path = CalendarSwift/Assets/chevronRight.imageset/chevronRight.png; sourceTree = "<group>"; };
+		8C17D634BE8CE2015F80C792A117C193 /* Pods-bluest_of_berries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bluest_of_berries.release.xcconfig"; sourceTree = "<group>"; };
+		9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E5A5CDC4D16C94454938ACF76E5173 /* Pods-bluest_of_berriesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bluest_of_berriesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A415BB89EB03AC744FFFB45685B1B03 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C20EFAE08F6D0C43E5870F8D032701E /* Pods-bluest_of_berriesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bluest_of_berriesTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7C5C4BB6B9D6956968121812892845 /* Pods-bluest_of_berriesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bluest_of_berriesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AB6A4AA0FD1B4AA2F4BACCF9F6BF96DD /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		AD26FFD18AF5DAFD5F477C604174993B /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		B02DCD3F5EB8E200B64A4B172102860F /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		B103A072C317311F0D5DECFC10B01639 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		B190C6234530E68C74A6BD36CD83EFA4 /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
+		B9D6AD7CBC7D5E3C25922DC92D7BDA09 /* Pods_bluest_of_berriesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_bluest_of_berriesTests.framework; path = "Pods-bluest_of_berriesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5AB90CB51C251022A2D5E1E96D2184 /* Pods-bluest_of_berriesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bluest_of_berriesTests.modulemap"; sourceTree = "<group>"; };
+		BFE473CB64C48C18F5575C003E4B0ACD /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		C0D568998FF81EFE7B5D39C58DCB9062 /* Pods-bluest_of_berriesUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bluest_of_berriesUITests-Info.plist"; sourceTree = "<group>"; };
+		C2489FD7E542F1CCF285E73BABE5E600 /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
+		C2DAF029012E55B119E9AD157AB1D899 /* Pods-bluest_of_berriesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bluest_of_berriesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C37F174F51342DCA3D6AF26D1F65F600 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		C404D4427CC5BC33A72E82095026C3AF /* Pods_bluest_of_berries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_bluest_of_berries.framework; path = "Pods-bluest_of_berries.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C853EBAB106962510FD3E6275749F2A5 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		C9132BB6DB7B2A9F5473E26D55EE4B4E /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		CAF5143D2D07F0AFC5EAB6A9445422BD /* CalendarSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarSwift-umbrella.h"; sourceTree = "<group>"; };
+		D199C8A70DF56BE44C06FB7536C061A8 /* ContentsRight.json */ = {isa = PBXFileReference; includeInIndex = 1; name = ContentsRight.json; path = CalendarSwift/Assets/chevronRight.imageset/ContentsRight.json; sourceTree = "<group>"; };
+		D5A1A67766EF9D83FA76FCBD738FA58C /* Pods-bluest_of_berriesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bluest_of_berriesUITests-umbrella.h"; sourceTree = "<group>"; };
+		D5B2F62221A3B4AEE61AED9ABC5F87F1 /* chevronLeft@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "chevronLeft@2x.png"; path = "CalendarSwift/Assets/chevronLeft.imageset/chevronLeft@2x.png"; sourceTree = "<group>"; };
+		DD576C5179AC2519D5657F4450CCAF02 /* Pods-bluest_of_berriesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bluest_of_berriesTests-dummy.m"; sourceTree = "<group>"; };
+		E8947B67E38536F7A976B4328BFB1CD5 /* Pods-bluest_of_berriesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bluest_of_berriesTests-umbrella.h"; sourceTree = "<group>"; };
+		E9C4075A0F663C050CF3E4CC1DBEE12A /* chevronRight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "chevronRight@3x.png"; path = "CalendarSwift/Assets/chevronRight.imageset/chevronRight@3x.png"; sourceTree = "<group>"; };
+		ED0008245F007EFAD7C903B313FAD2E8 /* ResourceBundle-CalendarSwift-CalendarSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CalendarSwift-CalendarSwift-Info.plist"; sourceTree = "<group>"; };
+		F0D462ABB156682EBD9324665D7B0F1D /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CalendarSwift/Classes/Helpers/Extensions.swift; sourceTree = "<group>"; };
+		F1A11E2AF5E1961A3845706688095038 /* Pods-bluest_of_berriesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bluest_of_berriesUITests.modulemap"; sourceTree = "<group>"; };
+		F32C875EA22F200468B0D1C3906FA22D /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		F58AD799E7DB60447E5A7FD3E3FBFE74 /* DayCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayCell.swift; path = CalendarSwift/Classes/Views/DayCell.swift; sourceTree = "<group>"; };
+		F902185120AF7DFDD2D1892B5E0EBCAE /* Pods-bluest_of_berries-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bluest_of_berries-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC9D7A15C6805F196AFC4A4872843912 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12D1C3B0D258EE78FD793F869E446BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FA7A35F419617DCE9DA3E304751387 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15F5E5F3764EABF1F374548FACA1204C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630B342001530B733E280906F9E659FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDADC229BF4D9925421A9B8B12DB468 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E28977D9ABE02C8F5A42341CF05AE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58161DF4FD846DE0A7A640A0D2FAEB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9727840973A9C2692E58F7089A7C243E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618D9C6E8BFF0C7AAD509E9279488585 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C650133CC6009DAD7AC2F1713B2AAAAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B14B6CAC8976A602A63C75A63BA84E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB2B34A634E01301F7B5C20A6F82128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D70E8159458DCD02FE61C322F090DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B82CE8AC0E58DCCD682FAB2D9C6A332 /* Pods-bluest_of_berries */ = {
+			isa = PBXGroup;
+			children = (
+				2BC898798ED53D81C1C7C51815227D77 /* Pods-bluest_of_berries.modulemap */,
+				F902185120AF7DFDD2D1892B5E0EBCAE /* Pods-bluest_of_berries-acknowledgements.markdown */,
+				23B0289A774BDF8ACE9158E72C9C8575 /* Pods-bluest_of_berries-acknowledgements.plist */,
+				665FB653C8A2B8BE635CA6CB374929E5 /* Pods-bluest_of_berries-dummy.m */,
+				2A18550EAE0E7477A89C3AA1550B1408 /* Pods-bluest_of_berries-frameworks.sh */,
+				7C9EE59CFF48173F430D79D07B39588D /* Pods-bluest_of_berries-Info.plist */,
+				424ED7A4E9E0748E5BA9974FBAC8D6AE /* Pods-bluest_of_berries-umbrella.h */,
+				261749000B3C60E94F14E0DED3F17106 /* Pods-bluest_of_berries.debug.xcconfig */,
+				8C17D634BE8CE2015F80C792A117C193 /* Pods-bluest_of_berries.release.xcconfig */,
+			);
+			name = "Pods-bluest_of_berries";
+			path = "Target Support Files/Pods-bluest_of_berries";
+			sourceTree = "<group>";
+		};
+		190BCFC0B1B675E0FED491DF11950666 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				FC9D7A15C6805F196AFC4A4872843912 /* DPDConstants.swift */,
+				5E508675AE05A5C5C8386637319AB1E8 /* DPDKeyboardListener.swift */,
+				367B98454837D19091D7C1ACF1080077 /* DPDUIView+Extension.swift */,
+				648632C96254FFC2BA3DBF7E693EE1D9 /* DropDown.swift */,
+				1CC4A453C1B670DAD171E080E9EB144E /* DropDown+Appearance.swift */,
+				F32C875EA22F200468B0D1C3906FA22D /* DropDownCell.swift */,
+				D869E30A09E554A2BD7F4353FEDF16D9 /* Resources */,
+				378BB8E0AAA138856BA94DAEE5E34357 /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		1E8EFAC58793992305C01FF3527ED1A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79B963986322DD51D62C50BAB1F8F39C /* CalendarSwift */,
+				190BCFC0B1B675E0FED491DF11950666 /* DropDown */,
+				506D555B857AAEF8369ADFF20F3B851B /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24525755B5277C577D5FF3DBA97DC832 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A819698C051A71334AAE0644AEBEA46 /* CalendarSwift.modulemap */,
+				43BF4288C7729463B6FE1F23EB31D2E8 /* CalendarSwift.xcconfig */,
+				521F1ED438746D0809EBA8FCDC79C5DC /* CalendarSwift-dummy.m */,
+				1EB8C68A1BBD3AE5A5535C598A8D3279 /* CalendarSwift-Info.plist */,
+				76D3299359A0338C50ECE7F4213FD4DC /* CalendarSwift-prefix.pch */,
+				CAF5143D2D07F0AFC5EAB6A9445422BD /* CalendarSwift-umbrella.h */,
+				ED0008245F007EFAD7C903B313FAD2E8 /* ResourceBundle-CalendarSwift-CalendarSwift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CalendarSwift";
+			sourceTree = "<group>";
+		};
+		378BB8E0AAA138856BA94DAEE5E34357 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E74412453D4BF4638BC5B78CC5DF99C /* DropDown.modulemap */,
+				C2489FD7E542F1CCF285E73BABE5E600 /* DropDown.xcconfig */,
+				4D6B8ECE89C23C26198458BA588018D4 /* DropDown-dummy.m */,
+				617EE4BCC5F12B0DA4E082C8DE8DC11B /* DropDown-Info.plist */,
+				C37F174F51342DCA3D6AF26D1F65F600 /* DropDown-prefix.pch */,
+				BFE473CB64C48C18F5575C003E4B0ACD /* DropDown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		3A7350693802CB735427D834C74D0E6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0BD57C187A1F4F77DE2550F2E4B2E525 /* chevronLeft.imageset */,
+				2B1625191D7E7EAB0118A23075D54340 /* chevronRight.imageset */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4522C3156D3413BFEF79A45FF854B4C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FB44266C5DDB9422262B34EABE404E9 /* TextFieldEffects.modulemap */,
+				B103A072C317311F0D5DECFC10B01639 /* TextFieldEffects.xcconfig */,
+				822B97CEABC4EE06B3F42CD7DFD9F53C /* TextFieldEffects-dummy.m */,
+				B190C6234530E68C74A6BD36CD83EFA4 /* TextFieldEffects-Info.plist */,
+				51795445E1BE09AF9DB034AAD1CB27DC /* TextFieldEffects-prefix.pch */,
+				9A415BB89EB03AC744FFFB45685B1B03 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		506D555B857AAEF8369ADFF20F3B851B /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				50D3403D957D574D8BF6FC1167B62445 /* HoshiTextField.swift */,
+				B02DCD3F5EB8E200B64A4B172102860F /* IsaoTextField.swift */,
+				6E43A3486FE979CCBB51B769CD03E724 /* JiroTextField.swift */,
+				AD26FFD18AF5DAFD5F477C604174993B /* KaedeTextField.swift */,
+				22AB6564D2CAEC423B87E568C8542D6E /* MadokaTextField.swift */,
+				C853EBAB106962510FD3E6275749F2A5 /* MinoruTextField.swift */,
+				C9132BB6DB7B2A9F5473E26D55EE4B4E /* TextFieldEffects.swift */,
+				174F6699FB0D6CB9726ACA7E9D083C11 /* YokoTextField.swift */,
+				AB6A4AA0FD1B4AA2F4BACCF9F6BF96DD /* YoshikoTextField.swift */,
+				4522C3156D3413BFEF79A45FF854B4C6 /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		79B963986322DD51D62C50BAB1F8F39C /* CalendarSwift */ = {
+			isa = PBXGroup;
+			children = (
+				06C179F084A2E0E07D8BC281AB517C7F /* CalendarView.swift */,
+				0CAD36D1771C02CE8D5B7F6CA9CE38A9 /* chevronLeft.png */,
+				D5B2F62221A3B4AEE61AED9ABC5F87F1 /* chevronLeft@2x.png */,
+				1104C400FB61C691B2690D00CAE6DDFA /* chevronLeft@3x.png */,
+				8776F90CDD80CCC44D6672CDCCB57445 /* chevronRight.png */,
+				73981B76CDF1B82B67EFEE147FE0274F /* chevronRight@2x.png */,
+				E9C4075A0F663C050CF3E4CC1DBEE12A /* chevronRight@3x.png */,
+				64CC03F0A82C95EDAFEDEDCE68BFB0AE /* ContentsLeft.json */,
+				D199C8A70DF56BE44C06FB7536C061A8 /* ContentsRight.json */,
+				F58AD799E7DB60447E5A7FD3E3FBFE74 /* DayCell.swift */,
+				F0D462ABB156682EBD9324665D7B0F1D /* Extensions.swift */,
+				158ABE6B79AB584800149CEB2552252C /* MonthView.swift */,
+				1EA831CFA5AE069BAACB0CF5912DA001 /* ScrollSegmentView.swift */,
+				300F676FECAFEC6970703B864F04A86F /* WeekdaysView.swift */,
+				3A7350693802CB735427D834C74D0E6D /* Resources */,
+				24525755B5277C577D5FF3DBA97DC832 /* Support Files */,
+			);
+			name = CalendarSwift;
+			path = CalendarSwift;
+			sourceTree = "<group>";
+		};
+		830688516D1589DFB689093996F106C1 /* Pods-bluest_of_berriesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1A11E2AF5E1961A3845706688095038 /* Pods-bluest_of_berriesUITests.modulemap */,
+				1C8488D77C073B85B0F96EBD2BDA7ACD /* Pods-bluest_of_berriesUITests-acknowledgements.markdown */,
+				6889F9BF1B3AE1E45729AC302C4861C7 /* Pods-bluest_of_berriesUITests-acknowledgements.plist */,
+				466A9772C53C1B033681B41A880A313E /* Pods-bluest_of_berriesUITests-dummy.m */,
+				C0D568998FF81EFE7B5D39C58DCB9062 /* Pods-bluest_of_berriesUITests-Info.plist */,
+				D5A1A67766EF9D83FA76FCBD738FA58C /* Pods-bluest_of_berriesUITests-umbrella.h */,
+				99E5A5CDC4D16C94454938ACF76E5173 /* Pods-bluest_of_berriesUITests.debug.xcconfig */,
+				9E7C5C4BB6B9D6956968121812892845 /* Pods-bluest_of_berriesUITests.release.xcconfig */,
+			);
+			name = "Pods-bluest_of_berriesUITests";
+			path = "Target Support Files/Pods-bluest_of_berriesUITests";
+			sourceTree = "<group>";
+		};
+		8C2D26B78BB06BA0E19920931C15E6DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F16FA7BE466A664E864CB24732BFE82 /* CalendarSwift.bundle */,
+				75F7C0825719D37FE8DBA6E7A80AF7BD /* CalendarSwift.framework */,
+				9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */,
+				C404D4427CC5BC33A72E82095026C3AF /* Pods_bluest_of_berries.framework */,
+				B9D6AD7CBC7D5E3C25922DC92D7BDA09 /* Pods_bluest_of_berriesTests.framework */,
+				280059341FFD9F27C8350F09FEB7010A /* Pods_bluest_of_berriesUITests.framework */,
+				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE3BEDE9AED4ACE902DE71DDE9FBF8C3 /* Pods-bluest_of_berriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5AB90CB51C251022A2D5E1E96D2184 /* Pods-bluest_of_berriesTests.modulemap */,
+				059F6B425FC33AD5B9172575D62A0BDF /* Pods-bluest_of_berriesTests-acknowledgements.markdown */,
+				C2DAF029012E55B119E9AD157AB1D899 /* Pods-bluest_of_berriesTests-acknowledgements.plist */,
+				DD576C5179AC2519D5657F4450CCAF02 /* Pods-bluest_of_berriesTests-dummy.m */,
+				835B25633DC1C901747013D90FD270B4 /* Pods-bluest_of_berriesTests-Info.plist */,
+				E8947B67E38536F7A976B4328BFB1CD5 /* Pods-bluest_of_berriesTests-umbrella.h */,
+				86D9CE19DA0A4297B72D72430F1E564F /* Pods-bluest_of_berriesTests.debug.xcconfig */,
+				9C20EFAE08F6D0C43E5870F8D032701E /* Pods-bluest_of_berriesTests.release.xcconfig */,
+			);
+			name = "Pods-bluest_of_berriesTests";
+			path = "Target Support Files/Pods-bluest_of_berriesTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1E8EFAC58793992305C01FF3527ED1A0 /* Pods */,
+				8C2D26B78BB06BA0E19920931C15E6DD /* Products */,
+				F51272CE0753B9B2D13021EF611D394D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D869E30A09E554A2BD7F4353FEDF16D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75C9CFE0EEDA3343389D619405E307FF /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F51272CE0753B9B2D13021EF611D394D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B82CE8AC0E58DCCD682FAB2D9C6A332 /* Pods-bluest_of_berries */,
+				CE3BEDE9AED4ACE902DE71DDE9FBF8C3 /* Pods-bluest_of_berriesTests */,
+				830688516D1589DFB689093996F106C1 /* Pods-bluest_of_berriesUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BB5683F7D1AA8FB2F94DA252A664DB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518195DB69E904D77247E0A55A0043C /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3353E056A3FF4A4836572913104B294E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DC568121FDF097D15C7D99BA2ADEA9 /* Pods-bluest_of_berries-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD1B2BF9EA58F4D49CDCE16B9FD99CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349303BC1D47269DCA9A8DC70F5FE7E3 /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4AF691CFC6345214FA6BA69239C8F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFE2A4201AAFB8566DAB686EC139214 /* Pods-bluest_of_berriesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EE9720BA6D51E6A2E42968A0B4BB5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA76D0A52A62884FFABEA0999B85CD7C /* Pods-bluest_of_berriesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5485DDC0246322505056898682D2AEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75C8D7970A9271DEB9E81D19DE97B27 /* CalendarSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AA4B31A64F8B998E3635927A824349F /* CalendarSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE8194451847D1D40ADD726B17E579F /* Build configuration list for PBXNativeTarget "CalendarSwift" */;
+			buildPhases = (
+				F5485DDC0246322505056898682D2AEF /* Headers */,
+				4A860727A9CB3ABBC4978D02A875372B /* Sources */,
+				630B342001530B733E280906F9E659FA /* Frameworks */,
+				A2C1C5002F7E9BF25C5D90E3365E79BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				917A8B56DC5A4F457B58D47B00C22DB6 /* PBXTargetDependency */,
+			);
+			name = CalendarSwift;
+			productName = CalendarSwift;
+			productReference = 75F7C0825719D37FE8DBA6E7A80AF7BD /* CalendarSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1893EA73745FC973993685BD23C62DF8 /* Pods-bluest_of_berriesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EBDF5132D6348960CBC10260D465308 /* Build configuration list for PBXNativeTarget "Pods-bluest_of_berriesUITests" */;
+			buildPhases = (
+				3D4AF691CFC6345214FA6BA69239C8F9 /* Headers */,
+				3DC913BCA21096D4FB9500F50665D637 /* Sources */,
+				7E28977D9ABE02C8F5A42341CF05AE0F /* Frameworks */,
+				53CCBBC8132A0C3F753C7D5B7B0C6CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E13ADB52E242A7FCBBFD4B785C6105 /* PBXTargetDependency */,
+			);
+			name = "Pods-bluest_of_berriesUITests";
+			productName = "Pods-bluest_of_berriesUITests";
+			productReference = 280059341FFD9F27C8350F09FEB7010A /* Pods_bluest_of_berriesUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDDA8369821397273158CE66B54F8FCF /* Pods-bluest_of_berries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79521C1C5DE1472E5991D6D8589B7DF7 /* Build configuration list for PBXNativeTarget "Pods-bluest_of_berries" */;
+			buildPhases = (
+				3353E056A3FF4A4836572913104B294E /* Headers */,
+				8AD660231EDB651EEDAAA1DF78165E7F /* Sources */,
+				C650133CC6009DAD7AC2F1713B2AAAAD /* Frameworks */,
+				3D36146F714F45DABC340B8A6784F31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C12E23052B6EC2FEDDE4FF9995A19FD /* PBXTargetDependency */,
+				691F52EBB64635FE89EE43647D3C28CE /* PBXTargetDependency */,
+				9791E9167FF5AED194DE63F2E4F28458 /* PBXTargetDependency */,
+			);
+			name = "Pods-bluest_of_berries";
+			productName = "Pods-bluest_of_berries";
+			productReference = C404D4427CC5BC33A72E82095026C3AF /* Pods_bluest_of_berries.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFE3320C51A570F90A298E2823E62918 /* Pods-bluest_of_berriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C049C78032A552D6D0E4C48C4A2D2798 /* Build configuration list for PBXNativeTarget "Pods-bluest_of_berriesTests" */;
+			buildPhases = (
+				48EE9720BA6D51E6A2E42968A0B4BB5B /* Headers */,
+				093186B8E2D348CB6283E1625FB23B0F /* Sources */,
+				12D1C3B0D258EE78FD793F869E446BBC /* Frameworks */,
+				71A70B9FB6D1E13530DE51DD5ABE6B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33268FE81E80BE66FDFCAA8405687601 /* PBXTargetDependency */,
+			);
+			name = "Pods-bluest_of_berriesTests";
+			productName = "Pods-bluest_of_berriesTests";
+			productReference = B9D6AD7CBC7D5E3C25922DC92D7BDA09 /* Pods_bluest_of_berriesTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E93B3B5911F7235121B9FC45DCAB93 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				3AD1B2BF9EA58F4D49CDCE16B9FD99CB /* Headers */,
+				ECFC0860EA9204089B60B3203B4E8DCC /* Sources */,
+				CAB2B34A634E01301F7B5C20A6F82128 /* Frameworks */,
+				A209FF96D6E6E8CCB55305B9511390CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = 9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E03965D7732651AD1EFFA81BED8E8FF8 /* CalendarSwift-CalendarSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4148DDEDD488105A07E3B5D798DFE3 /* Build configuration list for PBXNativeTarget "CalendarSwift-CalendarSwift" */;
+			buildPhases = (
+				9DE5D27B837CF694FA4F06C86ED475ED /* Sources */,
+				15F5E5F3764EABF1F374548FACA1204C /* Frameworks */,
+				8A8554B40B5895C25015A46F8A25F121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalendarSwift-CalendarSwift";
+			productName = "CalendarSwift-CalendarSwift";
+			productReference = 2F16FA7BE466A664E864CB24732BFE82 /* CalendarSwift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBED57D13F9A2559E14BCD92E7CFF597 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				2BB5683F7D1AA8FB2F94DA252A664DB8 /* Headers */,
+				FAFA782452D3B598A37FB459CD314120 /* Sources */,
+				9727840973A9C2692E58F7089A7C243E /* Frameworks */,
+				D0143B72ED2669C4E98A5B8BBCE72151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8C2D26B78BB06BA0E19920931C15E6DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AA4B31A64F8B998E3635927A824349F /* CalendarSwift */,
+				E03965D7732651AD1EFFA81BED8E8FF8 /* CalendarSwift-CalendarSwift */,
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				BDDA8369821397273158CE66B54F8FCF /* Pods-bluest_of_berries */,
+				CFE3320C51A570F90A298E2823E62918 /* Pods-bluest_of_berriesTests */,
+				1893EA73745FC973993685BD23C62DF8 /* Pods-bluest_of_berriesUITests */,
+				D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D36146F714F45DABC340B8A6784F31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CCBBC8132A0C3F753C7D5B7B0C6CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A70B9FB6D1E13530DE51DD5ABE6B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8554B40B5895C25015A46F8A25F121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A148FB1D2DABAA9E90AE43526225B728 /* chevronLeft.imageset in Resources */,
+				E60D7348562433D7D286523A8B2519FE /* chevronRight.imageset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A209FF96D6E6E8CCB55305B9511390CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C1C5002F7E9BF25C5D90E3365E79BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1B079B452D212C968A2D4F23927322 /* CalendarSwift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0143B72ED2669C4E98A5B8BBCE72151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3D83C05EC7793D23A1192C11B9F631 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093186B8E2D348CB6283E1625FB23B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2415CD5BEF3F0E37CF4B42CA7F508A8 /* Pods-bluest_of_berriesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC913BCA21096D4FB9500F50665D637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B5E4276E8984F9C3F2B1F60D9D5E6B /* Pods-bluest_of_berriesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A860727A9CB3ABBC4978D02A875372B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94B9A9AC3430ACC7EBEFD4CE81567F2 /* CalendarSwift-dummy.m in Sources */,
+				A8E267852921B77AE138B29CB0A9CF2D /* CalendarView.swift in Sources */,
+				5E36731A714E3A91F1D0FCDE7B5DD3F8 /* chevronLeft.png in Sources */,
+				1C5474CAA226B4DFE980BAA66FFB93A4 /* chevronLeft@2x.png in Sources */,
+				4056982ADE099217309EEB681A82441D /* chevronLeft@3x.png in Sources */,
+				E02E6FB1029AE943C28B81A15282B20D /* chevronRight.png in Sources */,
+				FEDDF4FB4F4E63ABF0D3FC89C45A82E3 /* chevronRight@2x.png in Sources */,
+				2BF3C9B18F485B67455BECCBDA604FEC /* chevronRight@3x.png in Sources */,
+				63B1C850569DFBE60BEE8D6A3510E786 /* ContentsLeft.json in Sources */,
+				380E1FE390CAD81499EE47995C090C5A /* ContentsRight.json in Sources */,
+				CD7E0DB1F177E53F6B320DD62EA28C6B /* DayCell.swift in Sources */,
+				7ABEED4DBF9156D5062FC8668EDA17C1 /* Extensions.swift in Sources */,
+				396F77AC595953321ED294C88C9D829F /* MonthView.swift in Sources */,
+				7704BF06324524141C6252259B475D4C /* ScrollSegmentView.swift in Sources */,
+				2DE6579832127EC896FFF5560A984773 /* WeekdaysView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD660231EDB651EEDAAA1DF78165E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6BC580238F859913650F43C79ED5DC /* Pods-bluest_of_berries-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE5D27B837CF694FA4F06C86ED475ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC0860EA9204089B60B3203B4E8DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C670EDF6B960D29F052DE260D24FCE /* HoshiTextField.swift in Sources */,
+				13A43D842E23693FBA1437CB98C0F776 /* IsaoTextField.swift in Sources */,
+				6A1538989C51F4DE83647ED6DDAC8E36 /* JiroTextField.swift in Sources */,
+				CB631FA5BBDD18E0F1E7ACFEAECB6DC4 /* KaedeTextField.swift in Sources */,
+				6D63A736EA2765C1A10D3F471AB91898 /* MadokaTextField.swift in Sources */,
+				6244B963F18A67CB3EB046F255D0547A /* MinoruTextField.swift in Sources */,
+				665EE7D4F7D3873FAD40332ABCEBC341 /* TextFieldEffects-dummy.m in Sources */,
+				D408472B5F7B334349810848FE56A6A9 /* TextFieldEffects.swift in Sources */,
+				51E9BD9641E4B10C671FEF70209E5DAF /* YokoTextField.swift in Sources */,
+				0DC778447938347144C50306F4FE3DF9 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA782452D3B598A37FB459CD314120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F515237FF94DAB4C8A15B7E33A3877B /* DPDConstants.swift in Sources */,
+				BA7BB2FF04CE1CAFC5238D1807EF0034 /* DPDKeyboardListener.swift in Sources */,
+				4A8FE4C4F6D45B41CE01A00D24C56961 /* DPDUIView+Extension.swift in Sources */,
+				6064C623428CE711C252E442741F81AB /* DropDown+Appearance.swift in Sources */,
+				95897DCFD4071A7D61AEAE1DA86BB539 /* DropDown-dummy.m in Sources */,
+				842DFBB1471889C2CA329AE05620BBE7 /* DropDown.swift in Sources */,
+				361F5CE2807CBD530C8C6E63FD245F5A /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C12E23052B6EC2FEDDE4FF9995A19FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CalendarSwift;
+			target = 0AA4B31A64F8B998E3635927A824349F /* CalendarSwift */;
+			targetProxy = 4B7C03E564D8C0099E22DB36CA439F5C /* PBXContainerItemProxy */;
+		};
+		33268FE81E80BE66FDFCAA8405687601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-bluest_of_berries";
+			target = BDDA8369821397273158CE66B54F8FCF /* Pods-bluest_of_berries */;
+			targetProxy = F4DA5EBE54C38F8EE44F3FDEB339D4DC /* PBXContainerItemProxy */;
+		};
+		691F52EBB64635FE89EE43647D3C28CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = F96A50C846E8D7DBFBB7E8D753AF9045 /* PBXContainerItemProxy */;
+		};
+		917A8B56DC5A4F457B58D47B00C22DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CalendarSwift-CalendarSwift";
+			target = E03965D7732651AD1EFFA81BED8E8FF8 /* CalendarSwift-CalendarSwift */;
+			targetProxy = F6FFCED0D791978819AF74D8EB3064D4 /* PBXContainerItemProxy */;
+		};
+		9791E9167FF5AED194DE63F2E4F28458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */;
+			targetProxy = 80A938CCD86A8988DA9E0B590A157A3E /* PBXContainerItemProxy */;
+		};
+		D0E13ADB52E242A7FCBBFD4B785C6105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-bluest_of_berries";
+			target = BDDA8369821397273158CE66B54F8FCF /* Pods-bluest_of_berries */;
+			targetProxy = E3B8F2319310704A3533568518320F9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		183350FB8D6F47FB12AC512559F2621E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7C5C4BB6B9D6956968121812892845 /* Pods-bluest_of_berriesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bluest_of_berriesUITests/Pods-bluest_of_berriesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bluest_of_berriesUITests/Pods-bluest_of_berriesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		22DE460950F4460EA81C6747ABFFD9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D9CE19DA0A4297B72D72430F1E564F /* Pods-bluest_of_berriesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bluest_of_berriesTests/Pods-bluest_of_berriesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bluest_of_berriesTests/Pods-bluest_of_berriesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5A03110784B0DEA54CC1871F69A8A24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C20EFAE08F6D0C43E5870F8D032701E /* Pods-bluest_of_berriesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bluest_of_berriesTests/Pods-bluest_of_berriesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bluest_of_berriesTests/Pods-bluest_of_berriesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6610F9ABE7B7AADBD6A18B6DC0CCF0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C17D634BE8CE2015F80C792A117C193 /* Pods-bluest_of_berries.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bluest_of_berries/Pods-bluest_of_berries-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bluest_of_berries/Pods-bluest_of_berries.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717B98E5EDB76925C8DF3F39CA2297CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B103A072C317311F0D5DECFC10B01639 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E8D5C4CB6A67837C399CB2C23DE3D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BF4288C7729463B6FE1F23EB31D2E8 /* CalendarSwift.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CalendarSwift/CalendarSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CalendarSwift/CalendarSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CalendarSwift/CalendarSwift.modulemap";
+				PRODUCT_MODULE_NAME = CalendarSwift;
+				PRODUCT_NAME = CalendarSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3C733A6F45D03BC5A3664D7A8E538FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2489FD7E542F1CCF285E73BABE5E600 /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A90916CB5753DDC8C4553E0EF85F4BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BF4288C7729463B6FE1F23EB31D2E8 /* CalendarSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CalendarSwift";
+				INFOPLIST_FILE = "Target Support Files/CalendarSwift/ResourceBundle-CalendarSwift-CalendarSwift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CalendarSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B077BB951EBA12DBFA3A0D2BF878122F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B103A072C317311F0D5DECFC10B01639 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B36820E7240B4C26293501096F12811B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BF4288C7729463B6FE1F23EB31D2E8 /* CalendarSwift.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CalendarSwift/CalendarSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CalendarSwift/CalendarSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CalendarSwift/CalendarSwift.modulemap";
+				PRODUCT_MODULE_NAME = CalendarSwift;
+				PRODUCT_NAME = CalendarSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B68EF06FAD160CBB7BA373E9913E4E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E5A5CDC4D16C94454938ACF76E5173 /* Pods-bluest_of_berriesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bluest_of_berriesUITests/Pods-bluest_of_berriesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bluest_of_berriesUITests/Pods-bluest_of_berriesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D30219333FCB92E4D175316E26E044C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2489FD7E542F1CCF285E73BABE5E600 /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC2BF36D24C07DF7558DE1F2429BDA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BF4288C7729463B6FE1F23EB31D2E8 /* CalendarSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CalendarSwift";
+				INFOPLIST_FILE = "Target Support Files/CalendarSwift/ResourceBundle-CalendarSwift-CalendarSwift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CalendarSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F5491176160A63B7CD21A4F99BCD202E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261749000B3C60E94F14E0DED3F17106 /* Pods-bluest_of_berries.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bluest_of_berries/Pods-bluest_of_berries-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bluest_of_berries/Pods-bluest_of_berries.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DE8194451847D1D40ADD726B17E579F /* Build configuration list for PBXNativeTarget "CalendarSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36820E7240B4C26293501096F12811B /* Debug */,
+				7E8D5C4CB6A67837C399CB2C23DE3D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E93B3B5911F7235121B9FC45DCAB93 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717B98E5EDB76925C8DF3F39CA2297CF /* Debug */,
+				B077BB951EBA12DBFA3A0D2BF878122F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4148DDEDD488105A07E3B5D798DFE3 /* Build configuration list for PBXNativeTarget "CalendarSwift-CalendarSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2BF36D24C07DF7558DE1F2429BDA69 /* Debug */,
+				A90916CB5753DDC8C4553E0EF85F4BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EBDF5132D6348960CBC10260D465308 /* Build configuration list for PBXNativeTarget "Pods-bluest_of_berriesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68EF06FAD160CBB7BA373E9913E4E08 /* Debug */,
+				183350FB8D6F47FB12AC512559F2621E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79521C1C5DE1472E5991D6D8589B7DF7 /* Build configuration list for PBXNativeTarget "Pods-bluest_of_berries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5491176160A63B7CD21A4F99BCD202E /* Debug */,
+				6610F9ABE7B7AADBD6A18B6DC0CCF0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C049C78032A552D6D0E4C48C4A2D2798 /* Build configuration list for PBXNativeTarget "Pods-bluest_of_berriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DE460950F4460EA81C6747ABFFD9C7 /* Debug */,
+				5A03110784B0DEA54CC1871F69A8A24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBED57D13F9A2559E14BCD92E7CFF597 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30219333FCB92E4D175316E26E044C8 /* Debug */,
+				A3C733A6F45D03BC5A3664D7A8E538FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

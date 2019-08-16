@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lxi-hC-LL4">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--addTask View Controller-->
+        <scene sceneID="mZK-np-DtW">
+            <objects>
+                <viewController storyboardIdentifier="AddTaskID" id="lxi-hC-LL4" userLabel="addTask View Controller" customClass="addTaskViewController" customModule="bluest_of_berries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0jf-dB-b9x">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="VBl-04-Wyf" userLabel="Bloop Description Stack View">
+                                <rect key="frame" x="20" y="144" width="374" height="70.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bloop description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfG-mK-b2a">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.21960784310000001" green="0.34901960780000002" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8W9-6P-fOg">
+                                        <rect key="frame" x="0.0" y="40.5" width="374" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vQW-Qe-xVL" userLabel="Bloop Type Stack View">
+                                <rect key="frame" x="20" y="473.5" width="90" height="70.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bloop type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Luq-Yd-Sa1">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.21960784310000001" green="0.34901960780000002" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RfR-fg-Z7D">
+                                        <rect key="frame" x="0.0" y="40.5" width="90" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="Select a type">
+                                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="bloopTypeDD:" destination="lxi-hC-LL4" eventType="touchUpInside" id="NeX-eF-M05"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tKt-Z0-dle" userLabel="Time Estimate Stack View">
+                                <rect key="frame" x="20" y="363" width="209.5" height="70.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estimated time to complete" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ibd-SG-kXA">
+                                        <rect key="frame" x="0.0" y="0.0" width="209.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.21960784310000001" green="0.34901960780000002" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amo-KH-5Nb">
+                                        <rect key="frame" x="0.0" y="40.5" width="93" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Select a time ">
+                                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="estTimeDD:" destination="lxi-hC-LL4" eventType="touchUpInside" id="yUq-8F-XNf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Priority level: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wja-w2-wK8">
+                                <rect key="frame" x="20" y="584" width="103" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWw-sn-0K2">
+                                <rect key="frame" x="20" y="786" width="374" height="36"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.34901960780000002" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Add to list">
+                                    <color key="titleColor" red="0.90588235289999997" green="0.91764705879999997" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mkN-kt-mV4" kind="show" identifier="ListPageID" id="TQ3-gS-UcY"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="y4B-za-Vwy" customClass="prioritySegmentedControl" customModule="bluest_of_berries" customModuleProvider="target">
+                                <rect key="frame" x="20" y="624.5" width="374" height="29"/>
+                                <segments>
+                                    <segment title="None"/>
+                                    <segment title="!"/>
+                                    <segment title="!!"/>
+                                    <segment title="!!!"/>
+                                </segments>
+                            </segmentedControl>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="RuR-zs-2xz">
+                                <rect key="frame" x="20" y="254.5" width="76" height="68.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Due date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mq9-8O-jDu">
+                                        <rect key="frame" x="0.0" y="0.0" width="69.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.21960784310000001" green="0.34901960780000002" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBV-B8-yxL">
+                                        <rect key="frame" x="0.0" y="38.5" width="76" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Pick a date">
+                                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pickDateButtonPressed:" destination="lxi-hC-LL4" eventType="touchUpInside" id="eTw-bk-O7Z"/>
+                                            <segue destination="jns-Si-hPt" kind="popoverPresentation" identifier="calendarSegue" popoverAnchorView="MBV-B8-yxL" id="qYg-Ar-vOo">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES"/>
+                                            </segue>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PGR-Hr-hdw">
+                                <rect key="frame" x="-8" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Add Bloop" id="gk0-ZD-WTZ">
+                                        <leftBarButtonItems>
+                                            <barButtonItem id="ueK-C4-bo0"/>
+                                            <barButtonItem systemItem="cancel" id="WvI-7G-PFB">
+                                                <connections>
+                                                    <segue destination="mkN-kt-mV4" kind="show" identifier="" id="yK4-gH-LC7"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90588235289999997" green="0.91764705879999997" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VBl-04-Wyf" firstAttribute="leading" secondItem="rDY-gJ-IJF" secondAttribute="leading" constant="20" id="56W-iH-oFz"/>
+                            <constraint firstItem="vQW-Qe-xVL" firstAttribute="leading" secondItem="rDY-gJ-IJF" secondAttribute="leading" constant="20" id="6dR-za-Ld1"/>
+                            <constraint firstItem="rDY-gJ-IJF" firstAttribute="trailing" secondItem="GWw-sn-0K2" secondAttribute="trailing" constant="20" id="AoL-jm-P7w"/>
+                            <constraint firstItem="wja-w2-wK8" firstAttribute="top" secondItem="vQW-Qe-xVL" secondAttribute="bottom" constant="40" id="Fdj-Wk-X9r"/>
+                            <constraint firstItem="VBl-04-Wyf" firstAttribute="top" secondItem="rDY-gJ-IJF" secondAttribute="top" constant="100" id="K5J-rZ-mH1"/>
+                            <constraint firstItem="tKt-Z0-dle" firstAttribute="top" secondItem="RuR-zs-2xz" secondAttribute="bottom" constant="40" id="MXc-ok-0YB"/>
+                            <constraint firstItem="rDY-gJ-IJF" firstAttribute="trailing" secondItem="VBl-04-Wyf" secondAttribute="trailing" constant="20" id="PGg-Xo-IE1"/>
+                            <constraint firstItem="y4B-za-Vwy" firstAttribute="top" secondItem="wja-w2-wK8" secondAttribute="bottom" constant="20" id="RyN-MV-wC9"/>
+                            <constraint firstItem="wja-w2-wK8" firstAttribute="leading" secondItem="rDY-gJ-IJF" secondAttribute="leading" constant="20" id="XUi-79-emX"/>
+                            <constraint firstItem="tKt-Z0-dle" firstAttribute="leading" secondItem="rDY-gJ-IJF" secondAttribute="leading" constant="20" id="Yv7-jo-gER"/>
+                            <constraint firstItem="rDY-gJ-IJF" firstAttribute="bottom" secondItem="GWw-sn-0K2" secondAttribute="bottom" constant="40" id="en7-at-uLM"/>
+                            <constraint firstItem="y4B-za-Vwy" firstAttribute="leading" secondItem="rDY-gJ-IJF" secondAttribute="leading" constant="20" id="gF6-Ph-9Wx"/>
+                            <constraint firstItem="GWw-sn-0K2" firstAttribute="leading" secondItem="rDY-gJ-IJF" secondAttribute="leading" constant="20" id="jTV-JP-VUA"/>
+                            <constraint firstItem="RuR-zs-2xz" firstAttribute="top" secondItem="VBl-04-Wyf" secondAttribute="bottom" constant="40" id="ooT-I5-Xz0"/>
+                            <constraint firstItem="vQW-Qe-xVL" firstAttribute="top" secondItem="tKt-Z0-dle" secondAttribute="bottom" constant="40" id="uJn-Ci-gbY"/>
+                            <constraint firstItem="rDY-gJ-IJF" firstAttribute="trailing" secondItem="y4B-za-Vwy" secondAttribute="trailing" constant="20" id="yL6-FD-bJE"/>
+                            <constraint firstItem="RuR-zs-2xz" firstAttribute="leading" secondItem="rDY-gJ-IJF" secondAttribute="leading" constant="20" id="zkJ-5t-hp3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rDY-gJ-IJF"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kEZ-pu-Aph"/>
+                    <connections>
+                        <outlet property="addToListButton" destination="GWw-sn-0K2" id="3bF-Dd-1ua"/>
+                        <outlet property="bloopDescriptionLabel" destination="bfG-mK-b2a" id="2B4-Lh-Ici"/>
+                        <outlet property="bloopDescriptionTextField" destination="8W9-6P-fOg" id="LYl-Eo-R7S"/>
+                        <outlet property="bloopTypeDDButton" destination="RfR-fg-Z7D" id="l39-z7-AMw"/>
+                        <outlet property="bloopTypeLabel" destination="Luq-Yd-Sa1" id="Llt-jz-za8"/>
+                        <outlet property="dueDateLabel" destination="Mq9-8O-jDu" id="hAX-Zv-MLC"/>
+                        <outlet property="estTimeDDButton" destination="amo-KH-5Nb" id="QpP-tJ-qIk"/>
+                        <outlet property="estTimeLabel" destination="Ibd-SG-kXA" id="ajq-18-TmM"/>
+                        <outlet property="pickDateButton" destination="MBV-B8-yxL" id="uhT-NY-y3e"/>
+                        <outlet property="priorityLevelLabel" destination="wja-w2-wK8" id="ASy-lK-0A6"/>
+                        <outlet property="prioritySelectionControl" destination="y4B-za-Vwy" id="ot2-dG-CvE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kcJ-Yr-d8Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4.3478260869565224" y="135.9375"/>
+        </scene>
+        <!--ListPage-->
+        <scene sceneID="O2n-b0-uAc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ListPage" id="mkN-kt-mV4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ujo-jx-Clh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="574" y="308"/>
+        </scene>
+        <!--Calendar View Controller-->
+        <scene sceneID="POZ-W0-qxW">
+            <objects>
+                <viewController id="jns-Si-hPt" customClass="CalendarViewController" customModule="bluest_of_berries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ucz-6Q-Se1">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OAV-Mb-ysE" customClass="CalendarView" customModule="CalendarSwift">
+                                <rect key="frame" x="0.0" y="44" width="300" height="122"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BiU-rb-EcO">
+                                <rect key="frame" x="110" y="120" width="80" height="30"/>
+                                <state key="normal" title="Select Date"/>
+                                <connections>
+                                    <segue destination="lxi-hC-LL4" kind="modal" identifier="addTaskSegue" modalTransitionStyle="crossDissolve" id="6JH-al-on4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WWU-Ue-hbJ" firstAttribute="bottom" secondItem="OAV-Mb-ysE" secondAttribute="bottom" id="3rC-tz-4E2"/>
+                            <constraint firstItem="BiU-rb-EcO" firstAttribute="leading" secondItem="ucz-6Q-Se1" secondAttribute="leading" constant="110" id="JBn-RW-fZX"/>
+                            <constraint firstItem="WWU-Ue-hbJ" firstAttribute="trailing" secondItem="OAV-Mb-ysE" secondAttribute="trailing" id="TV0-Pf-NNc"/>
+                            <constraint firstItem="OAV-Mb-ysE" firstAttribute="top" secondItem="WWU-Ue-hbJ" secondAttribute="top" id="aWb-wr-ncC"/>
+                            <constraint firstAttribute="bottom" secondItem="BiU-rb-EcO" secondAttribute="bottom" constant="50" id="iMq-eW-sCB"/>
+                            <constraint firstItem="OAV-Mb-ysE" firstAttribute="leading" secondItem="WWU-Ue-hbJ" secondAttribute="leading" id="qtt-Cg-jLv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WWU-Ue-hbJ"/>
+                    </view>
+                    <size key="freeformSize" width="300" height="200"/>
+                    <connections>
+                        <outlet property="calendarPopView" destination="OAV-Mb-ysE" id="wyI-tq-GfX"/>
+                        <outlet property="selectDateButton" destination="BiU-rb-EcO" id="Rc5-ho-Slz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MwS-Tv-wkO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1180" y="147"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="TQ3-gS-UcY"/>
+    </inferredMetricsTieBreakers>
+</document>
